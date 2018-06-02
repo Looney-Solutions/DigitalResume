@@ -1,0 +1,157 @@
+/* Color Pallette
+#2B2D42 - Dark Blue
+#8D99AE - Light Blue
+#EDF2F4 - Blue/White
+#EF233C - Red 
+*/
+
+/* GLOBAL STYLES
+-------------------------- */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+h1, h2 {
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+}
+h1 {
+    font-size: 80px;
+}
+h2 {
+    font-size: 40px;
+    margin-top: 0px;
+}
+h3 {
+    margin: 0;
+}
+a {
+    color: #EF233C;
+}
+a:hover {
+    text-decoration: none;
+}
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    overflow: auto;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.btn {
+    text-decoration: none;
+    background-color: #EF233C;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
+/* HEADER AND FOOTER
+-------------------------- */
+header {
+    padding-top: 50px;
+    position: relative;
+}
+header, footer {
+    background-color: #2B2D42;
+    color: #8D99AE;
+}
+/* HEADER */
+.profile-image {
+    border-radius: 50%;
+}
+.download {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+header h1, header h2 {
+    color: #EDF2F4;
+    margin: 0;
+}
+/* FOOTER */
+footer {
+    text-align: center;
+}
+.contact-info a {
+    /* background: white; */
+    padding: 10px;
+    display: inline-block;
+}
+.email {
+    color: #C63D2D;
+}
+.fb {
+    color: #3B5998;
+}
+.linkedin {
+    color: #0077B5;
+}
+/* NAVIGATION 
+--------------------------*/
+nav {
+    text-align: center;
+    background: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/* WORK EXPERIENCE
+-------------------------- */
+.work {
+    background-color: #EDF2F4;
+}
+h3 ~ p {
+    margin: 0;
+}
+.job-desc p:first-of-type {
+    margin-top: 0;
+}
+/* EDUCATION
+-------------------------- */
+.education {
+    /* background-color: #8D99AE; */
+    background: linear-gradient(rgba(141,153, 174, 0.8), rgba(141, 153, 174, 0.5)), 
+    url(../images/books.jpg) no-repeat fixed;
+    background-size: cover; 
+} 
+p + h3 {
+    margin-top: 30px;
+}
+
+/* MEDIA QUERIES
+-------------------------- */
+@media (min-width: 900px) {
+    .column-narrow {
+        width: 30%;
+        float: left;
+    }
+    .column-wide {
+        width: 70%;
+        float: left;
+        padding-left: 20px;
+    }
+}
+@media (max-width: 899px) {
+    header {
+        text-align: center;
+    }
+    .profile-image {
+        width: 200px;
+    }
+}
