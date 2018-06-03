@@ -53,6 +53,14 @@ a:hover {
     padding: 10px;
     display: inline-block;
 }
+.ul {
+    text-decoration: underline;
+    font-weight: 500;
+}
+.date {
+    margin-bottom: 2%;
+}
+
 /* HEADER AND FOOTER
 -------------------------- */
 header {
