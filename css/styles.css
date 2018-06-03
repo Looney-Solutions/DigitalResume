@@ -66,6 +66,7 @@ header, footer {
 /* HEADER */
 .profile-image {
     border-radius: 50%;
+    height: 50%;
 }
 .download {
     position: absolute;
@@ -86,13 +87,19 @@ footer {
     display: inline-block;
 }
 .email {
-    color: #C63D2D;
+    color: #dd4b39;
 }
 .fb {
-    color: #3B5998;
+    color: #3B5999;
 }
 .linkedin {
     color: #0077B5;
+}
+.instagram {
+    color: #e4405f;
+}
+.github {
+    color: #614381;
 }
 /* NAVIGATION 
 --------------------------*/
